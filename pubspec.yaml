@@ -1,0 +1,38 @@
+name: cardgame001
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/01card.png
+    - images/01pic.png
+    - images/02card.png
+    - images/02pic.png
+    - images/03card.png
+    - images/03pic.png
+    - images/04card.png
+    - images/04pic.png
+    - images/05card.png
+    - images/05pic.png
+    - images/06card.png
+    - images/06pic.png
+
